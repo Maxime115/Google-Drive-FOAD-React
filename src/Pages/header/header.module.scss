@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    padding: 30px;
+
+    a {
+        text-decoration: none;
+    }
+
+    h1 {
+                    
+            
+            color : #2262c6;
+            font-size: 40px;
+            padding: 30px;
+            text-decoration:none;
+            font-weight:600;
+            letter-spacing: 2px;
+            padding-left: 70px;
+            
+    }
+    
+    .logo {
+        position: absolute;
+        margin-top: 25px;
+        height: 64px;
+    }
+
+    .recherche {
+        display: flex;
+        background-color: #969696;
+        border-radius: 25px;
+        overflow: hidden;
+
+        input[type="text"] {
+            border: none;
+            padding: 10px;
+            border-radius: 25px 0 0 25px;
+            width: 80%;
+            outline: none;
+        }
+    }
+
+    
+}
