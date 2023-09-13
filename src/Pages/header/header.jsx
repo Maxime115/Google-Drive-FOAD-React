@@ -1,5 +1,6 @@
 import logo from '../images/logo.png';
 import styles from "./header.module.scss";
+import Recherche from '../recherche/recherche.jsx';
 
 function header () {
 
@@ -7,14 +8,7 @@ function header () {
         <>
         <header>
         <a href="#"><img className={styles.logo} src={logo}/><h1>Google Drive</h1></a>
-        <div classname={styles.recherche}>
-        <input
-        type="text"
-        placeholder='Rechercher...'
-        />
-        <i classname='fa-solid fa-magnifying-glass'></i>
-        </div>
-        
+        <Recherche></Recherche>
         </header>
         </>
     )
