@@ -12,14 +12,11 @@
         outline: none;  
         text-indent: 15px;  
         margin: auto;
-        margin-left: 70px;
-    
-        .searchbar::placeholder {
-            font-weight: 600;
-            font-size: px;
-            color: #999
-        }
-
+        margin-left: 0px;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 5px;
+        padding-bottom: 5px;
 
   
 }

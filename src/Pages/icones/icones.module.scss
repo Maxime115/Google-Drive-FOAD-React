@@ -1,0 +1,49 @@
+.menuFlex {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    margin-top: 45px;
+
+    
+
+    li {
+      margin-bottom: 10px; 
+      display: flex;
+      a {
+        text-decoration: none;
+        font-weight: 500; 
+        font-size: 16px; 
+        display: block; 
+        transition: background-color 0.3s; 
+        letter-spacing: 2px;
+        color:#aeb9ca;
+
+        &:hover {
+          color: #2262c6;
+          ; 
+        }
+      }
+    }
+    span {
+        margin-left: 30px;
+      }
+
+      .cercle {
+        width: 40px; /* Ajustez la taille du cercle selon vos besoins */
+        height: 40px; /* Ajustez la taille du cercle selon vos besoins */
+        background-color: #2262c6; /* Couleur de fond du cercle */
+        border-radius: 50%; /* Transforme le div en un cercle */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px; /* Ajustez la taille de la lettre "S" */
+        color: #fff; /* Couleur de la lettre "S" */
+        font-weight: 500;
+        font-size: 28px;
+        position: absolute;
+        top : 67px; right: 65px
+    
+      }
+}
